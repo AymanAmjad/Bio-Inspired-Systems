@@ -83,6 +83,7 @@ class CuckooSearch:
 
 # Load the grayscale image
 image = cv2.imread("/content/algo.jpg", cv2.IMREAD_GRAYSCALE)
+print("USN:1BM22CS061 NAME:AYMAN AMJAD")
 
 # Run Cuckoo Search for optimal threshold
 cs = CuckooSearch(otsu_threshold, image, num_nests=15, pa=0.25, num_iterations=50, lower_bound=0, upper_bound=255)
