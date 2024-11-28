@@ -90,6 +90,7 @@ class ACO_TSP:
 
 # Example usage
 cities = [(0, 0), (1, 5), (2, 3), (5, 2), (6, 6), (8, 3)]
+print("USN:1BM22CS061 NAME:AYMAN AMJAD")
 aco = ACO_TSP(cities, num_ants=10, alpha=1, beta=5, rho=0.5, initial_pheromone=1, num_iterations=100)
 best_path, best_length = aco.run()
 
