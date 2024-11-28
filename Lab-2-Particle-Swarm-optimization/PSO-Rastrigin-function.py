@@ -50,7 +50,7 @@ def pso(rastrigin_function, bounds, num_particles, max_iter):
 bounds = [(-5.12, -5.12), (5.12, 5.12)]
 num_particles = 30
 max_iter = 10
-
+print("USN:1BM22CS061 NAME:AYMAN AMJAD")
 best_position, best_value = pso(rastrigin, bounds, num_particles, max_iter)
 
 print("\nBest position found by PSO:", best_position)
