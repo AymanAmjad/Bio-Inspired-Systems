@@ -74,6 +74,7 @@ values = [3, 4, 8, 8, 9, 10, 12, 14, 15, 16, 17, 18, 20, 22, 24, 26, 28, 30, 32,
 capacity = 50  # Maximum weight capacity
 
 # Run the Genetic Algorithm
+print("USN:1BM22CS061 NAME:AYMAN AMJAD")
 best_solution, best_value = genetic_algorithm(weights, values, capacity)
 
 print("\nBest Solution (Items selected):", best_solution)
